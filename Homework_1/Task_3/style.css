@@ -1,0 +1,44 @@
+header {
+    position: fixed;
+    width: 90%;
+    height: 15%;
+    left: 5%;
+    background-color: lightskyblue;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+aside {
+    position: fixed;
+    top: 20%;
+    bottom: 20%;
+    left: 5%;
+    width: 10%;
+    height: 600px;
+    background: transparent;
+}
+
+main {
+    position: fixed;
+    top: 20%;
+    bottom: 20%;
+    left: 15%;
+    right: 15%;
+    /* background-color: lightgray; */
+}
+
+footer {
+    position: fixed;
+    bottom: 1%;
+    width: 90%;
+    height: 15%;
+    left: 5%;
+    background-color: lightskyblue;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer p {
+    padding-left: 5%;
+    padding-right: 5%;
+}
