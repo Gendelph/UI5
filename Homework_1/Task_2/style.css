@@ -1,5 +1,30 @@
+#main{
+    border: 5px solid black;
+    width:  400px;
+    height: 400px;
+    position: static;
+}
 #sq1{
-    border: 1px solid springgreen;
-    width:  50px;
-    height: 50px;
+    background-color: red;
+    width:  300px;
+    height: 300px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+#sq2{
+    background-color: lawngreen;
+    width:  300px;
+    height: 300px;
+    position: fixed;
+    top: 150px;
+    left: 150px;;
+}
+#sq3{
+    background-color: blue;
+    width:  300px;
+    height: 300px;
+    position: fixed;
+    top: 250px;
+    left: 250px;
 }
