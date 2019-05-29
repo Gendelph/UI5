@@ -1,0 +1,35 @@
+#rec1{
+    background-color: red;
+    width:  40%;
+    height: 50px;
+}
+
+#rec2{
+    background-color: orange;
+    width:  59%;
+    height: 50px;
+}
+
+#rec3{
+    background-color: green;
+    width:  100%;
+    height: 500px;
+}
+
+#rec4{
+    background-color: indianred;
+    width:  30%;
+    height: 300px;
+}
+
+#rec5{
+    background-color: blue;
+    width:  30%;
+    height: 300px;
+}
+
+#rec6{
+    background-color: blueviolet;
+    width:  39%;
+    height: 300px;
+}
