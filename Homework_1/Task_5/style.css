@@ -1,0 +1,50 @@
+
+div{
+    height: 100%;
+    width: 100%;
+}
+
+div #j1{
+    width: auto;
+    height: auto;
+    min-width: 30px;
+    object-fit: scale-down;
+}
+
+div #j2{
+    max-width: 100%;
+    height: auto;
+    object-fit: scale-down;
+}
+
+div #j3{
+    position: absolute;
+    width: auto;
+    height: auto;
+    object-fit: scale-down;
+}
+
+div #j4{
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+}
+
+div #j5{
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+}
+
+div #j6{
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+}
+
+div #j7{
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+}
+
