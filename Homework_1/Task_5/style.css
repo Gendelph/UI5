@@ -7,44 +7,59 @@ div{
 div #j1{
     width: auto;
     height: auto;
-    min-width: 30px;
-    object-fit: scale-down;
+    justify-content: inherit;
+  align-items: inherit;
 }
 
 div #j2{
-    max-width: 100%;
+    width: auto;
     height: auto;
     object-fit: scale-down;
 }
 
 div #j3{
-    position: absolute;
     width: auto;
     height: auto;
     object-fit: scale-down;
 }
 
 div #j4{
-    position: absolute;
-    max-width: 100%;
+    width: auto;
     height: auto;
+    object-fit: scale-down;
 }
 
 div #j5{
-    position: absolute;
-    max-width: 100%;
+    width: auto;
     height: auto;
+    object-fit: scale-down;
 }
 
 div #j6{
-    position: absolute;
-    max-width: 100%;
+    width: auto;
     height: auto;
+    object-fit: scale-down;
 }
 
 div #j7{
-    position: absolute;
-    max-width: 100%;
+    width: auto;
+    height: auto;
+    object-fit: scale-down;
+}
+
+div #j8{
+    width: auto;
+    height: auto;
+    object-fit: scale-down;
+}
+
+div #j9{
+    width: 49%;
+    height: auto;
+}
+
+div #j10{
+    width: 49%;
     height: auto;
 }
 
