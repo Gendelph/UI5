@@ -1,35 +1,133 @@
-#rec1{
-    background-color: red;
-    width:  40%;
-    height: 50px;
+@media screen and (max-width: 420px) {
+    #rec3 {
+        background-color: green;
+        width: 100%;
+        height: 10%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+
+    #rec6 {
+        background-color: blueviolet;
+        width: 100%;
+        height: 10%;
+        position: fixed;
+        top: 11%;
+        left: 0px;
+    }
+
+    #rec1 {
+        background-color: red;
+        width: 100%;
+        height: 78%;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    #rec2 {
+        display: none;
+    }
+
+    #rec4 {
+        display: none;
+    }
+
+    #rec5 {
+        display: none;
+    }
+
+
 }
 
-#rec2{
-    background-color: orange;
-    width:  59%;
-    height: 50px;
+@media screen and (min-width: 500px) and (max-width: 1024px) {
+
+    #rec2 {
+        background-color: orange;
+        width: 39%;
+        height: 10%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+
+    #rec6 {
+        background-color: blueviolet;
+        width: 60%;
+        height: 10%;
+        position: fixed;
+        top: 0px;
+        left: 40%;
+    }
+
+    #rec1 {
+        background-color: red;
+        width: 100%;
+        height: 50%;
+        position: fixed;
+        top: 11%;
+        left: 0px;
+    }
+
+    #rec3 {
+        background-color: green;
+        width: 49%;
+        height: 39%;
+        position: fixed;
+        top: 62%;
+        left: 0px;
+    }
+
+    #rec5 {
+        background-color: blue;
+        width: 50%;
+        height: 39%;
+        position: fixed;
+        top: 62%;
+        right: 0px;;
+    }
+
+    #rec4 {
+        display: none;
+    }
 }
 
-#rec3{
-    background-color: green;
-    width:  100%;
-    height: 500px;
-}
+@media screen and (min-width: 1030px) {
 
-#rec4{
-    background-color: indianred;
-    width:  30%;
-    height: 300px;
-}
+    #rec1 {
+        background-color: red;
+        width: 40%;
+        height: 50px;
+    }
 
-#rec5{
-    background-color: blue;
-    width:  30%;
-    height: 300px;
-}
+    #rec2 {
+        background-color: orange;
+        width: 59%;
+        height: 50px;
+    }
 
-#rec6{
-    background-color: blueviolet;
-    width:  39%;
-    height: 300px;
+    #rec3 {
+        background-color: green;
+        width: 100%;
+        height: 500px;
+    }
+
+    #rec4 {
+        background-color: indianred;
+        width: 30%;
+        height: 300px;
+    }
+
+    #rec5 {
+        background-color: blue;
+        width: 30%;
+        height: 300px;
+    }
+
+    #rec6 {
+        background-color: blueviolet;
+        width: 39%;
+        height: 300px;
+    }
 }
