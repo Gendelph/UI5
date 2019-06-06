@@ -1,65 +1,86 @@
-
-div{
-    height: 100%;
-    width: 100%;
+div {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-div #j1{
-    width: auto;
-    height: auto;
-    justify-content: inherit;
-  align-items: inherit;
+@media (min-width:1px) and (max-width:1279px){
+  .c1{
+      width: 20%;
+      height: 20%;
+  }
 }
 
-div #j2{
-    width: auto;
-    height: auto;
-    object-fit: scale-down;
+@media (min-width:1280px) and (max-width:1919px){
+  .c1{
+      width: 25%;
+      height: 25%;
+  }
+  .c2{
+      width: 50%;
+      height: 50%;
+  }
 }
 
-div #j3{
-    width: auto;
-    height: auto;
-    object-fit: scale-down;
+@media (min-width:1920px){
+  .c1{
+     width: 20%;
+     height: 20%;
+ }
 }
 
-div #j4{
-    width: auto;
-    height: auto;
-    object-fit: scale-down;
+/*
+div #j1 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-div #j5{
-    width: auto;
-    height: auto;
-    object-fit: scale-down;
+div #j2 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-div #j6{
-    width: auto;
-    height: auto;
-    object-fit: scale-down;
+div #j3 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-div #j7{
-    width: auto;
-    height: auto;
-    object-fit: scale-down;
+div #j4 {
+  width: auto;
+  height: auto;
+  object-fit: scale-down;
 }
 
-div #j8{
-    width: auto;
-    height: auto;
-    object-fit: scale-down;
+div #j5 {
+  width: auto;
+  height: auto;
+  object-fit: scale-down;
 }
 
-div #j9{
-    width: 49%;
-    height: auto;
+div #j6 {
+  width: auto;
+  height: auto;
+  object-fit: scale-down;
 }
 
-div #j10{
-    width: 49%;
-    height: auto;
+div #j7 {
+  width: auto;
+  height: auto;
+  object-fit: scale-down;
 }
 
+div #j8 {
+  width: auto;
+  height: auto;
+  object-fit: scale-down;
+}
+
+div #j9 {
+  width: 49%;
+  height: auto;
+}
+
+div #j10 {
+  width: 49%;
+  height: auto;
+}
+*/
