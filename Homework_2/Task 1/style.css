@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Mali:400,700&display=swap');
+
+body {
+    background: rgba(30, 30, 30, 10);
+    font-family: 'Mali', cursive;
+}
+
+h3 {
+    color: aqua;
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 30%;
+}
+
+.input-group-text{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
