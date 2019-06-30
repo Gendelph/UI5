@@ -1,0 +1,53 @@
+{
+	"type": "Collection",
+	"properties": {
+		"NUMB": {
+			"name": "NUMB",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "NUMB",
+			"order": 0
+		},
+		"USER": {
+			"name": "USER",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "USER",
+			"order": 1
+		},
+		"PINC": {
+			"name": "PINC",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "PINC",
+			"order": 2
+		},
+		"DATE": {
+			"name": "DATE",
+			"type": "date",
+			"typeLabel": "date",
+			"required": false,
+			"id": "DATE",
+			"order": 3
+		},
+		"STAT": {
+			"name": "STAT",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "STAT",
+			"order": 4
+		},
+		"BALN": {
+			"name": "BALN",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "BALN",
+			"order": 5
+		}
+	}
+}

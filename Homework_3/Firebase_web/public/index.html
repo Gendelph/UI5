@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to Firebase Hosting</title>
+
+  <!-- update the version number as needed -->
+  <script src="https://www.gstatic.com/firebasejs/6.2.3/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-app.js"></script>
+  <!-- include only the Firebase features as you need -->
+  <script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-messaging.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-storage.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-firestore.js"></script>
+  <!-- initialize the SDK after all desired features are loaded -->
+  <!--<script src="https://www.gstatic.com/firebasejs/init.js"></script> -->
+  <script src="init-firebase.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="loginform cf">
+    <form name="login" method="post" accept-charset="utf-8">
+      <div>
+        <label for="usermail">Email</label>
+        <input type="email" name="usermail" placeholder="yourname@email.com" required></li>
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="password" required></li>
+      </div>
+      <div id="submit">
+        <input type="submit" value="Login"></li>
+      </div>
+    </form>
+  </section>
+
+  <p id="load">Firebase SDK Loading&hellip;</p>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+      // // The Firebase SDK is initialized and available here!
+      // firebase.auth().onAuthStateChanged(user => { });
+      // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+      // firebase.messaging().requestPermission().then(() => { });
+      // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+      //
+      // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+      try {
+        let app = firebase.app();
+        let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] ===
+          'function');
+        document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
+      } catch (e) {
+        console.error(e);
+        document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
+      }
+    });
+  </script>
+</body>
+
+</html>
